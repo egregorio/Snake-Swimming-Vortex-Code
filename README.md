@@ -8,6 +8,12 @@ If you use this code, please cite:
 
 Gregorio, E., Godoy-Diana, R., & Herrel, A. (2026). Turning without fins: quantifying the distinct kinematics and vortex dynamics of maneuvering swimming snakes. Physical Review E. https://doi.org/10.1103/c57h-kx57
 
+## Data Repository
+
+You can find the data repository associated with this code here:
+
+Gregorio, Elizabeth; Godoy-Diana, Ramiro; Herrel, Anthony, 2026, "Swimming kinematics and volumetric wake measurements for Natrix maura and Nerodia rhombifer", https://doi.org/10.48579/PRO/5Q27ST, data.InDoRES
+
 ## Contact
 
 Elizabeth Gregorio: elizabeth.gregorio@espci.fr
