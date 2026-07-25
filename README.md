@@ -55,6 +55,10 @@ be installed separately if you want to reproduce figures.
    `ddptv_data.mat` and `piv_functions.m`
 4. Run the script.
 
+## Funding
+
+This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20- CE02-0010).
+
 ## License
 
 Licensed under the MIT License.
