@@ -23,7 +23,7 @@ Elizabeth Gregorio: elizabeth.gregorio@espci.fr
 - MATLAB (developed/tested in R20XX; requires R2016b or later for local
   functions in script files)
 - Image Processing Toolbox (`imread`, image handling)
-- `brewermap`, `cmocean`, 'fullfig' are online Matlab resources and should 
+- `brewermap`, `cmocean`, 'fullfig' are online MATLAB resources and should 
 be installed separately if you want to reproduce figures.
 
 ## Files
@@ -47,7 +47,7 @@ be installed separately if you want to reproduce figures.
 
 ## How to run
 
-1. Place `piv_functions.m`, 'PIV_PLOTS.m', and both `.mat` data
+1. Place `piv_functions.m`, `PIV_PLOTS.m`, and both `.mat` data
    files in the same folder.
 2. Open the analysis script and set `trial` to one of `'turn1'`,
    `'fwd2'`, or `'fwd6'`.
@@ -57,7 +57,7 @@ be installed separately if you want to reproduce figures.
 
 ## Funding
 
-This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20- CE02-0010).
+This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20-CE02-0010).
 
 ## License
 
