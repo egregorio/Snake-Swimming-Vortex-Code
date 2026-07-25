@@ -55,6 +55,10 @@ be installed separately if you want to reproduce figures.
    `ddptv_data.mat` and `piv_functions.m`
 4. Run the script.
 
+## Acknowledgements
+
+This code was adapted from the script written by Vincent Stin for his thesis (10.70675/ebec3ce5z7e2dz4ad9z89c4z3f21fdee0281).
+
 ## Funding
 
 This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20-CE02-0010).
