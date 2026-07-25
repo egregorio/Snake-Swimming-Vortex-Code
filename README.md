@@ -1,2 +1,54 @@
-# Snake-Swimming-Vortex-Code
-The code in this repository is associated with the paper Gregorio et al (2026) and can be used with the associated published data reproduce the figures and vortex calculations.
+# README: Snake-Swimming-Vortex-Code
+
+This repository contains the MATLAB code to reproduce the vortex figures and calculations in Gregorio et al 2026 (https://doi.org/10.1103/c57h-kx57).
+
+## Citation
+
+If you use this code, please cite:
+
+Gregorio, E., Godoy-Diana, R., & Herrel, A. (2026). Turning without fins: quantifying the distinct kinematics and vortex dynamics of maneuvering swimming snakes. Physical Review E. https://doi.org/10.1103/c57h-kx57
+
+## Contact
+
+Elizabeth Gregorio: elizabeth.gregorio@espci.fr
+
+## Requirements
+
+- MATLAB (developed/tested in R20XX; requires R2016b or later for local
+  functions in script files)
+- Image Processing Toolbox (`imread`, image handling)
+- `brewermap`, `cmocean`, 'fullfig' are online Matlab resources and should 
+be installed separately if you want to reproduce figures.
+
+## Files
+
+- **`piv_functions.m`** — A MATLAB `classdef` with static methods
+  bundling helper functions used by the analysis script:
+  - `HydroParam_imp` — computes vorticity, Q-criterion, and related
+    flow quantities from the raw velocity field
+  - `isosurfacecolor` — computes RGB coloring for vortex isosurface
+    rendering
+
+  Called from the analysis script using dot notation, e.g.
+  `piv_functions.LoadDat()`.
+
+- **`PIV_PLOTS.m`** — Main analysis script. Loads one
+  trial's data (set the `trial` variable at the top to `'turn1'`,
+  `'fwd2'`, or `'fwd6'`), computes vortex impulse over time, fits
+  polynomials to each vortex event window (from `vortex_range`), 
+  generates the impulse and vortex-force figures, and visualization 
+  of the vortices.
+
+## How to run
+
+1. Place `piv_functions.m`, 'PIV_PLOTS.m', and both `.mat` data
+   files in the same folder.
+2. Open the analysis script and set `trial` to one of `'turn1'`,
+   `'fwd2'`, or `'fwd6'`.
+3. Update the file path at the top of the script to point to
+   `ddptv_data.mat` and `piv_functions.m`
+4. Run the script.
+
+## License
+
+Licensed under the MIT License.
